@@ -9,7 +9,9 @@
 #include <cmath>
 #include <iomanip>
 #include <map>
-#include <stack>
+#include <unordered_set>
+#include <queue>
+#include "point.hpp"
 
 using namespace std;
 
@@ -17,60 +19,49 @@ using namespace std;
 #define DELIMITER ','
 #define INPUT_FILE "input"
 
-struct point {
-    int x;
-    int y;
-
-    point() {}
-
-    point(int a, int b)
-    {
-        x = a;
-        y = b;
-    }
-
-    bool operator<(const point& other) const {
-        if (x != other.x) return x < other.x;
-        return y < other.y;
-    }   
-
-    bool operator==(const point& other) const {
-        return (x == other.x && y == other.y);
-    }
-
-    string toString()
-    {
-        return (to_string(x) + " " + to_string(y));
-    }
-};
-
-struct relation {
-    point A;
-    point B;
-    ll area;
-
-    relation(point a, point b, ll ar)
-    {
-        A = a;
-        B = b;
-        area = ar;
-    }
-    
-    string toString()
-    {
-        return (A.toString() + " <-> " + B.toString() + " = " + to_string(area));
-    }
-};
-
-vector<point> process_input(vector<string> rawInput, char delimiter);
-vector<point> connect_points(vector<point> &points);
+vector<point> process_input();
+vector<point> compress_points(vector<point> &points);
+unordered_set<point, point_hash> connect_points(vector<point> &points);
 ll get_area(point A, point B);
-bool is_point_inside(vector<point> &points, point p);
+void fill_in_pollygon(unordered_set<point, point_hash> &points);
+point get_first_inside_point(unordered_set<point, point_hash> &points);
+vector<relation> find_valid_rectangles(vector<point> &points, unordered_set<point, point_hash> &all_points);
+bool is_point_inside(unordered_set<point, point_hash> &points, point p);
 
 int main(int argc, char *argv[])
 {
-    auto start = std::chrono::high_resolution_clock::now();
+    vector<point> points = process_input();
 
+    vector<point> compressed_points = compress_points(points);
+
+    unordered_set<point, point_hash> connected_compressed_points = connect_points(compressed_points);
+
+    fill_in_pollygon(connected_compressed_points);
+
+    vector<relation> point_to_point_distances = find_valid_rectangles(compressed_points, connected_compressed_points);
+
+    ll max_area = INT64_MIN;
+    for (auto r : point_to_point_distances)
+    {
+        relation biggest_rectangle = r;
+        point original_A, original_B;
+        for (int i = 0; i < compressed_points.size(); i++)
+        {
+            if (biggest_rectangle.A == compressed_points[i])
+                original_A = points[i];
+            else if (biggest_rectangle.B == compressed_points[i])
+                original_B = points[i];
+        }
+
+        max_area = max(max_area, get_area(original_A, original_B));
+    }
+
+    cout << "Max Area: " << max_area << endl;
+    return 0;
+}
+
+vector<point> process_input() {
+    vector<point> points;
 
     ifstream inputFile;
     inputFile.open(INPUT_FILE);
@@ -79,28 +70,149 @@ int main(int argc, char *argv[])
     string line;
     while (getline(inputFile, line))
     {
-        line;
-        lines.push_back(line);
+        stringstream input(line);
+        string segment;
+
+        vector<string> coordinates;
+        while (getline(input, segment, ','))
+        {
+            coordinates.push_back(segment);
+        }
+
+        point new_point(stoi(coordinates[0]), stoi(coordinates[1]));
+        points.push_back(new_point);
     }
 
-    vector<point> points = process_input(lines, DELIMITER);
-    
-    vector<point> all_points = connect_points(points);
-   
+    return points;
+}
 
-    sort(points.begin(), points.end());
-    
-    if (argc > 1 && string(argv[1]) == "--debug")
+vector<point> compress_points(vector<point> &points)
+{
+    set<int> compressed_x_set;
+    set<int> compressed_y_set;
+    for (auto p : points)
     {
-        for (auto point : points)
-        {
-            cout << point.x << " " << point.y;
-            cout << endl;
+        compressed_x_set.insert(p.x);
+        compressed_y_set.insert(p.y);
+    }
+
+    map<int, int> compressed_x_map;
+    for (int i = 0; int x : compressed_x_set)
+    {
+        compressed_x_map[x] = i;
+        i++;
+    }
+    
+    map<int, int> compressed_y_map;
+    for (int i = 0; int y : compressed_y_set)
+    {
+        compressed_y_map[y] = i;
+        i++;
+    }
+
+    vector<point> compressed_points;
+    for (auto p : points)
+    {
+        point compressed_point = point(compressed_x_map[p.x], compressed_y_map[p.y]);
+        compressed_points.push_back(compressed_point);
+    }
+
+    return compressed_points;
+}
+
+// Gipster helped here. Had some small bug, but it's 5 am, I couldn't deal with it anymore lol.
+unordered_set<point, point_hash> connect_points(vector<point> &points)
+{
+    unordered_set<point, point_hash> connected_points;
+
+    // Insert original points
+    for (auto &p : points)
+        connected_points.insert(p);
+
+    // Group points by X (columns)
+    unordered_map<int, vector<int>> by_x;
+    // Group points by Y (rows)
+    unordered_map<int, vector<int>> by_y;
+
+    for (auto &p : points) {
+        by_x[p.x].push_back(p.y);
+        by_y[p.y].push_back(p.x);
+    }
+
+    // Fill vertical gaps (same x, varying y)
+    for (auto &[x, ys] : by_x) {
+        sort(ys.begin(), ys.end());
+        for (int i = 1; i < ys.size(); i++) {
+            for (int y = ys[i - 1] + 1; y < ys[i]; y++) {
+                connected_points.insert(point(x, y));
+            }
         }
     }
 
-    // Find all Distances:
+    // Fill horizontal gaps (same y, varying x)
+    for (auto &[y, xs] : by_y) {
+        sort(xs.begin(), xs.end());
+        for (int i = 1; i < xs.size(); i++) {
+            for (int x = xs[i - 1] + 1; x < xs[i]; x++) {
+                connected_points.insert(point(x, y));
+            }
+        }
+    }
+
+    return connected_points;
+}
+
+ll get_area(point A, point B)
+{
+    return ((ll) abs(A.x - B.x)+1) * (ll) (abs(A.y - B.y)+1);
+}
+
+void fill_in_pollygon(unordered_set<point, point_hash> &points)
+{
+    queue<point> queue;
+    queue.push(get_first_inside_point(points));
+    
+    while (!queue.empty())
+    {
+        point current = queue.front();
+        queue.pop();
+
+        if (points.find(current) != points.end())
+            continue;
+        
+        points.insert(current);
+
+        vector<point> neighbourds = {
+            point(current.x+1, current.y),
+            point(current.x-1, current.y),
+            point(current.x, current.y+1),
+            point(current.x, current.y-1),
+        };
+
+        for (point next : neighbourds)
+        {
+            queue.push(next);
+        }
+    }
+}
+
+point get_first_inside_point(unordered_set<point, point_hash> &points)
+{
+    auto min_it_x = min_element(points.begin(), points.end(), [](point a, point b){ return a.x < b.x; });
+
+    point inside_point = *min_it_x;
+    while (points.find(inside_point) != points.end())
+    {
+        inside_point.x++;
+    }
+    
+    return inside_point;
+}
+
+vector<relation> find_valid_rectangles(vector<point> &points, unordered_set<point, point_hash> &all_points)
+{
     vector<relation> point_to_point_distances;
+
     for (int i = 0; i < points.size(); i++)
     {
         for (int j = i+1; j < points.size(); j++)
@@ -116,6 +228,9 @@ int main(int argc, char *argv[])
                     break;
                 }
             }
+
+            if (!is_inside)
+                continue;
 
             for (int y = min(points[i].y, points[j].y); y <= max(points[i].y, points[j].y); y++)
             {
@@ -133,102 +248,12 @@ int main(int argc, char *argv[])
         }
     }
 
-    // Sort by distance in ascending
-    sort(point_to_point_distances.begin(), point_to_point_distances.end(), [](relation a, relation b) {
-        return a.area >= b.area;
-    });
-
-    // for (auto ppd : point_to_point_distances)
-    // {
-    //     cout << ppd.area << endl;
-    // }
-
-    cout << point_to_point_distances[0].area << endl;
-
-        auto end = std::chrono::high_resolution_clock::now();
-
-    return 0;
+    return point_to_point_distances;
 }
 
-vector<point> process_input(vector<string> rawInput, char delimiter) {
-    vector<point> points;
-
-    for (string line : rawInput)
-    {
-        stringstream input(line);
-        string segment;
-        vector<string> coordinates;
-
-        while (getline(input, segment, delimiter))
-        {
-            coordinates.push_back(segment);
-        }
-
-        point new_point(stoi(coordinates[0]), stoi(coordinates[1]));
-        points.push_back(new_point);
-    }
-
-    return points;
-}
-
-ll get_area(point A, point B)
+bool is_point_inside(unordered_set<point, point_hash> &points, point p)
 {
-    return ((ll) abs(A.x - B.x)+1) * (ll) (abs(A.y - B.y)+1);
-}
-
-vector<point> connect_points(vector<point> &points)
-{
-    vector<point> connected_points = points;
-
-    // Connect Rows:
-    sort(points.begin(), points.end(), [](point a, point b){ return a.y < b.y; });
-    for (int x = 0; x < 100000; x++) {
-        auto it = points.begin();
-        int before = INT32_MAX-1;
-        while ((it = find_if(it, points.end(), [x](point a){ return a.x == x; })) != points.end())
-        {
-            for (int y = before+1; y <= (*it).y-1; y++)
-                connected_points.push_back(point(x, y));
-
-            before = (*it).y;
-            it++;
-        }
-    }
-
-    // Connect Cols:
-    sort(points.begin(), points.end(), [](point a, point b){ return a.x < b.x; });
-    for (int y = 0; y < 100000; y++) {
-        auto it = points.begin();
-        int before = INT32_MAX-1;
-        while ((it = find_if(it, points.end(), [y](point a){ return a.y == y; })) != points.end())
-        {
-            for (int x = before+1; x <= (*it).x-1; x++)
-                connected_points.push_back(point(x, y));
-
-            before = (*it).x;
-            it++;
-        }
-    }
-
-    return connected_points;
-}
-
-bool is_point_inside(vector<point> &points, point p)
-{
-    // if (find(points.begin(), points.end(), p) != points.end())
-    //     return true;
-
-    // auto min_it_x = min_element(points.begin(), points.end(), [](point a, point b){ return a.x < b.x; });
-
-    // int count = 0;
-    // for (int x = (*min_it_x).x; x < p.x; x++)
-    // {
-    //     if (find(points.begin(), points.end(), point(x, p.y)) != points.end())
-    //     {
-    //         count++;
-    //     }
-    // }
-
-    // return count % 2 != 0;
-    return true;
+    if (points.find(p) != points.end())
+        return true;
+    return false;
 }
