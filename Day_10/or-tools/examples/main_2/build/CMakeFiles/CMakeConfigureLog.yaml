@@ -1,0 +1,3884 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/bin/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/sbin/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/bin/uname"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/sbin/uname"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/uname"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/uname"
+      - "/home/mrfinch/.local/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Linux - 6.17.4-76061704-generic - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/bin/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/sbin/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/bin/gmake"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/sbin/gmake"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/gmake"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gmake"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/gmake"
+      - "/home/mrfinch/.local/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/sbin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/bin/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/sbin/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/bin/c++"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/sbin/c++"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/c++"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/c++"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/c++"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/c++"
+      - "/home/mrfinch/.local/bin/c++"
+      - "/usr/local/sbin/c++"
+      - "/usr/local/bin/c++"
+      - "/usr/sbin/c++"
+    found: "/usr/bin/c++"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/"
+    found: "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/4.2.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/strip"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/ld"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/nm"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/objdump"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/objcopy"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/readelf"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/dlltool"
+      - "/home/mrfinch/.local/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/snap/bin/dlltool"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/bin/addr2line"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/tapi"
+      - "/home/mrfinch/.local/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/snap/bin/tapi"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-11.4"
+      - "gcc-ar-11"
+      - "gcc-ar11"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-11.4"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-11.4"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-11.4"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/gcc-ar-11.4"
+      - "/home/mrfinch/.local/bin/gcc-ar-11.4"
+      - "/usr/local/sbin/gcc-ar-11.4"
+      - "/usr/local/bin/gcc-ar-11.4"
+      - "/usr/sbin/gcc-ar-11.4"
+      - "/sbin/gcc-ar-11.4"
+      - "/bin/gcc-ar-11.4"
+      - "/usr/games/gcc-ar-11.4"
+      - "/usr/local/games/gcc-ar-11.4"
+      - "/snap/bin/gcc-ar-11.4"
+    found: "/usr/bin/gcc-ar-11"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-11.4"
+      - "gcc-ranlib-11"
+      - "gcc-ranlib11"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-11.4"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-11.4"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-11.4"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/gcc-ranlib-11.4"
+      - "/home/mrfinch/.local/bin/gcc-ranlib-11.4"
+      - "/usr/local/sbin/gcc-ranlib-11.4"
+      - "/usr/local/bin/gcc-ranlib-11.4"
+      - "/usr/sbin/gcc-ranlib-11.4"
+      - "/sbin/gcc-ranlib-11.4"
+      - "/bin/gcc-ranlib-11.4"
+      - "/usr/games/gcc-ranlib-11.4"
+      - "/usr/local/games/gcc-ranlib-11.4"
+      - "/snap/bin/gcc-ranlib-11.4"
+    found: "/usr/bin/gcc-ranlib-11"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/CMakeScratch/TryCompile-h0FcSG"
+      binary: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/CMakeScratch/TryCompile-h0FcSG"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/CMakeScratch/TryCompile-h0FcSG'
+        
+        Run Build Command(s): /opt/cmake-4.2.1-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b6fa9/fast
+        gmake[1]: Entering directory '/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/CMakeScratch/TryCompile-h0FcSG'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b6fa9.dir/build.make CMakeFiles/cmTC_b6fa9.dir/build
+        gmake[2]: Entering directory '/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/CMakeScratch/TryCompile-h0FcSG'
+        Building CXX object CMakeFiles/cmTC_b6fa9.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_b6fa9.dir/CMakeCXXCompilerABI.cpp.o -c /opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6fa9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b6fa9.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b6fa9.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccSlP8lK.s
+        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/11
+         /usr/include/x86_64-linux-gnu/c++/11
+         /usr/include/c++/11/backward
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 6c87588fc345655b93b8c25f48f88886
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6fa9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b6fa9.dir/'
+         as -v --64 -o CMakeFiles/cmTC_b6fa9.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccSlP8lK.s
+        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6fa9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b6fa9.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_b6fa9
+        /opt/cmake-4.2.1-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6fa9.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b6fa9' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b6fa9.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccalwDHw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b6fa9 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_b6fa9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 11.4.0
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccalwDHw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b6fa9 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_b6fa9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.38
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b6fa9' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b6fa9.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_b6fa9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b6fa9
+        gmake[2]: Leaving directory '/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/CMakeScratch/TryCompile-h0FcSG'
+        gmake[1]: Leaving directory '/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/CMakeScratch/TryCompile-h0FcSG'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/11]
+          add: [/usr/include/x86_64-linux-gnu/c++/11]
+          add: [/usr/include/c++/11/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+        collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/CMakeScratch/TryCompile-h0FcSG']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/cmake-4.2.1-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b6fa9/fast]
+        ignore line: [gmake[1]: Entering directory '/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/CMakeScratch/TryCompile-h0FcSG']
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_b6fa9.dir/build.make CMakeFiles/cmTC_b6fa9.dir/build]
+        ignore line: [gmake[2]: Entering directory '/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/CMakeScratch/TryCompile-h0FcSG']
+        ignore line: [Building CXX object CMakeFiles/cmTC_b6fa9.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_b6fa9.dir/CMakeCXXCompilerABI.cpp.o -c /opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6fa9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b6fa9.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b6fa9.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccSlP8lK.s]
+        ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/11]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+        ignore line: [ /usr/include/c++/11/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 6c87588fc345655b93b8c25f48f88886]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6fa9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b6fa9.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_b6fa9.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccSlP8lK.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6fa9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b6fa9.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_b6fa9]
+        ignore line: [/opt/cmake-4.2.1-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6fa9.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b6fa9' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b6fa9.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccalwDHw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b6fa9 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_b6fa9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccalwDHw.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_b6fa9] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_b6fa9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 11.4.0]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccalwDHw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b6fa9 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_b6fa9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.38
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/FindZLIB.cmake:165 (find_path)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/ortoolsConfig.cmake:25 (find_dependency)"
+      - "CMakeLists.txt:69 (find_package)"
+    mode: "path"
+    variable: "ZLIB_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "zlib.h"
+    candidate_directories:
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/include/x86_64-linux-gnu/include/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/include/x86_64-linux-gnu/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/include/include/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/include/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/include/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/include/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/include/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/include/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.local/bin/include/"
+      - "/home/mrfinch/.local/bin/"
+      - "/usr/local/sbin/include/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/include/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/include/"
+      - "/usr/sbin/"
+      - "/usr/bin/include/"
+      - "/usr/bin/"
+      - "/sbin/include/"
+      - "/sbin/"
+      - "/bin/include/"
+      - "/bin/"
+      - "/usr/games/include/"
+      - "/usr/games/"
+      - "/usr/local/games/include/"
+      - "/usr/local/games/"
+      - "/snap/bin/include/"
+      - "/snap/bin/"
+      - "/usr/local/include/x86_64-linux-gnu/include/"
+      - "/usr/local/include/x86_64-linux-gnu/"
+      - "/usr/local/include/include/"
+      - "/usr/local/include/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/x86_64-linux-gnu/include/"
+      - "/usr/include/x86_64-linux-gnu/"
+      - "/usr/include/include/"
+      - "/usr/include/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/x86_64-linux-gnu/include/"
+      - "/include/x86_64-linux-gnu/"
+      - "/include/include/"
+      - "/include/"
+      - "/opt/cmake-4.2.1-linux-x86_64/include/x86_64-linux-gnu/include/"
+      - "/opt/cmake-4.2.1-linux-x86_64/include/x86_64-linux-gnu/"
+      - "/opt/cmake-4.2.1-linux-x86_64/include/include/"
+      - "/opt/cmake-4.2.1-linux-x86_64/include/"
+      - "/opt/cmake-4.2.1-linux-x86_64/include/"
+      - "/opt/cmake-4.2.1-linux-x86_64/"
+      - "/usr/X11R6/include/x86_64-linux-gnu/include/"
+      - "/usr/X11R6/include/x86_64-linux-gnu/"
+      - "/usr/X11R6/include/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/x86_64-linux-gnu/include/"
+      - "/usr/pkg/include/x86_64-linux-gnu/"
+      - "/usr/pkg/include/include/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/x86_64-linux-gnu/include/"
+      - "/opt/include/x86_64-linux-gnu/"
+      - "/opt/include/include/"
+      - "/opt/include/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/include/"
+      - "/usr/include/X11/"
+      - "/zlib/include/"
+      - "/zlib/"
+    searched_directories:
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/include/x86_64-linux-gnu/include/zlib.h"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/include/x86_64-linux-gnu/zlib.h"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/include/include/zlib.h"
+    found: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/include/"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/cmake-4.2.1-linux-x86_64"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/FindZLIB.cmake:195 (find_library)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/ortoolsConfig.cmake:25 (find_dependency)"
+      - "CMakeLists.txt:69 (find_package)"
+    mode: "library"
+    variable: "ZLIB_LIBRARY_RELEASE"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "z"
+      - "zlib"
+      - "zdll"
+      - "zlib1"
+      - "zlibstatic"
+      - "zlibwapi"
+      - "zlibvc"
+      - "zlibstat"
+    candidate_directories:
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/lib/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.local/bin/lib/"
+      - "/home/mrfinch/.local/bin/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/"
+      - "/sbin/lib/"
+      - "/sbin/"
+      - "/bin/lib/"
+      - "/bin/"
+      - "/usr/games/lib/"
+      - "/usr/games/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/lib/"
+      - "/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/x86_64-linux-gnu/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/x86_64-linux-gnu/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/"
+      - "/zlib/lib/"
+      - "/zlib/"
+    searched_directories:
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/lib/"
+    found: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/libz.so"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/cmake-4.2.1-linux-x86_64"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/FindZLIB.cmake:196 (find_library)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/ortoolsConfig.cmake:25 (find_dependency)"
+      - "CMakeLists.txt:69 (find_package)"
+    mode: "library"
+    variable: "ZLIB_LIBRARY_DEBUG"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "zd"
+      - "zlibd"
+      - "zdlld"
+      - "zlibd1"
+      - "zlib1d"
+      - "zlibstaticd"
+      - "zlibwapid"
+      - "zlibvcd"
+      - "zlibstatd"
+    candidate_directories:
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/lib/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.local/bin/lib/"
+      - "/home/mrfinch/.local/bin/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/"
+      - "/sbin/lib/"
+      - "/sbin/"
+      - "/bin/lib/"
+      - "/bin/"
+      - "/usr/games/lib/"
+      - "/usr/games/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/lib/"
+      - "/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/x86_64-linux-gnu/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/x86_64-linux-gnu/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/"
+      - "/zlib/lib/"
+      - "/zlib/"
+    searched_directories:
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/x86_64-linux-gnu/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/lib/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/lib/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/lib/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/lib/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/lib/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/lib/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/lib/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/lib/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/lib/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.local/bin/lib/"
+      - "/home/mrfinch/.local/bin/lib/"
+      - "/home/mrfinch/.local/bin/lib/"
+      - "/home/mrfinch/.local/bin/lib/"
+      - "/home/mrfinch/.local/bin/lib/"
+      - "/home/mrfinch/.local/bin/lib/"
+      - "/home/mrfinch/.local/bin/lib/"
+      - "/home/mrfinch/.local/bin/lib/"
+      - "/home/mrfinch/.local/bin/lib/"
+      - "/home/mrfinch/.local/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/sbin/lib/"
+      - "/sbin/lib/"
+      - "/sbin/lib/"
+      - "/sbin/lib/"
+      - "/sbin/lib/"
+      - "/sbin/lib/"
+      - "/sbin/lib/"
+      - "/sbin/lib/"
+      - "/sbin/lib/"
+      - "/sbin/"
+      - "/sbin/"
+      - "/sbin/"
+      - "/sbin/"
+      - "/sbin/"
+      - "/sbin/"
+      - "/sbin/"
+      - "/sbin/"
+      - "/sbin/"
+      - "/bin/lib/"
+      - "/bin/lib/"
+      - "/bin/lib/"
+      - "/bin/lib/"
+      - "/bin/lib/"
+      - "/bin/lib/"
+      - "/bin/lib/"
+      - "/bin/lib/"
+      - "/bin/lib/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib/"
+      - "/usr/games/"
+      - "/usr/games/"
+      - "/usr/games/"
+      - "/usr/games/"
+      - "/usr/games/"
+      - "/usr/games/"
+      - "/usr/games/"
+      - "/usr/games/"
+      - "/usr/games/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/"
+      - "/usr/local/games/"
+      - "/usr/local/games/"
+      - "/usr/local/games/"
+      - "/usr/local/games/"
+      - "/usr/local/games/"
+      - "/usr/local/games/"
+      - "/usr/local/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/"
+      - "/snap/bin/"
+      - "/snap/bin/"
+      - "/snap/bin/"
+      - "/snap/bin/"
+      - "/snap/bin/"
+      - "/snap/bin/"
+      - "/snap/bin/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/lib/"
+      - "/lib/lib/"
+      - "/lib/lib/"
+      - "/lib/lib/"
+      - "/lib/lib/"
+      - "/lib/lib/"
+      - "/lib/lib/"
+      - "/lib/lib/"
+      - "/lib/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/x86_64-linux-gnu/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/x86_64-linux-gnu/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/x86_64-linux-gnu/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/x86_64-linux-gnu/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/x86_64-linux-gnu/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/x86_64-linux-gnu/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/x86_64-linux-gnu/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/x86_64-linux-gnu/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/x86_64-linux-gnu/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/x86_64-linux-gnu/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/x86_64-linux-gnu/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/x86_64-linux-gnu/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/x86_64-linux-gnu/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/x86_64-linux-gnu/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/x86_64-linux-gnu/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/x86_64-linux-gnu/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/x86_64-linux-gnu/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/x86_64-linux-gnu/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/lib/"
+      - "/opt/cmake-4.2.1-linux-x86_64/"
+      - "/opt/cmake-4.2.1-linux-x86_64/"
+      - "/opt/cmake-4.2.1-linux-x86_64/"
+      - "/opt/cmake-4.2.1-linux-x86_64/"
+      - "/opt/cmake-4.2.1-linux-x86_64/"
+      - "/opt/cmake-4.2.1-linux-x86_64/"
+      - "/opt/cmake-4.2.1-linux-x86_64/"
+      - "/opt/cmake-4.2.1-linux-x86_64/"
+      - "/opt/cmake-4.2.1-linux-x86_64/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/X11R6/"
+      - "/usr/X11R6/"
+      - "/usr/X11R6/"
+      - "/usr/X11R6/"
+      - "/usr/X11R6/"
+      - "/usr/X11R6/"
+      - "/usr/X11R6/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/usr/pkg/"
+      - "/usr/pkg/"
+      - "/usr/pkg/"
+      - "/usr/pkg/"
+      - "/usr/pkg/"
+      - "/usr/pkg/"
+      - "/usr/pkg/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/X11/"
+      - "/zlib/lib/"
+      - "/zlib/lib/"
+      - "/zlib/lib/"
+      - "/zlib/lib/"
+      - "/zlib/lib/"
+      - "/zlib/lib/"
+      - "/zlib/lib/"
+      - "/zlib/lib/"
+      - "/zlib/lib/"
+      - "/zlib/"
+      - "/zlib/"
+      - "/zlib/"
+      - "/zlib/"
+      - "/zlib/"
+      - "/zlib/"
+      - "/zlib/"
+      - "/zlib/"
+      - "/zlib/"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/cmake-4.2.1-linux-x86_64"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/FindThreads.cmake:162 (check_cxx_source_compiles)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/absl/abslConfig.cmake:4 (find_dependency)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/ortoolsConfig.cmake:33 (find_dependency)"
+      - "CMakeLists.txt:69 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/CMakeScratch/TryCompile-oGgRhz"
+      binary: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/CMakeScratch/TryCompile-oGgRhz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/CMakeScratch/TryCompile-oGgRhz'
+        
+        Run Build Command(s): /opt/cmake-4.2.1-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c79c2/fast
+        gmake[1]: Entering directory '/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/CMakeScratch/TryCompile-oGgRhz'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c79c2.dir/build.make CMakeFiles/cmTC_c79c2.dir/build
+        gmake[2]: Entering directory '/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/CMakeScratch/TryCompile-oGgRhz'
+        Building CXX object CMakeFiles/cmTC_c79c2.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=c++17 -o CMakeFiles/cmTC_c79c2.dir/src.cxx.o -c /home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/CMakeScratch/TryCompile-oGgRhz/src.cxx
+        Linking CXX executable cmTC_c79c2
+        /opt/cmake-4.2.1-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c79c2.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_c79c2.dir/src.cxx.o -o cmTC_c79c2
+        gmake[2]: Leaving directory '/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/CMakeScratch/TryCompile-oGgRhz'
+        gmake[1]: Leaving directory '/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/CMakeScratch/TryCompile-oGgRhz'
+        
+      exitCode: 0
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/ortoolsConfig.cmake:33 (find_dependency)"
+      - "CMakeLists.txt:69 (find_package)"
+    name: "absl"
+    configs:
+      -
+        filename: "abslConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "absl-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "absl"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/abslConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/absl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/abslConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/absl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/absl/abslConfig.cmake"
+      mode: "config"
+      version: "20240722"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/cmake-4.2.1-linux-x86_64"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/protobuf/protobuf-config.cmake:12 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/ortoolsConfig.cmake:41 (find_dependency)"
+      - "CMakeLists.txt:69 (find_package)"
+    name: "utf8_range"
+    configs:
+      -
+        filename: "utf8_rangeConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "utf8_range-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "utf8_range"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/utf8_rangeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/utf8_range-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/utf8_rangeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/utf8_range-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/utf8_range/utf8_rangeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/utf8_range/utf8_range-config.cmake"
+      mode: "config"
+      version: ""
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/cmake-4.2.1-linux-x86_64"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/ortoolsConfig.cmake:41 (find_dependency)"
+      - "CMakeLists.txt:69 (find_package)"
+    name: "Protobuf"
+    configs:
+      -
+        filename: "ProtobufConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "protobuf-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Protobuf"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/ProtobufConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/protobuf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/ProtobufConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/protobuf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/protobuf/ProtobufConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/protobuf/protobuf-config.cmake"
+      mode: "config"
+      version: "29.3.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/cmake-4.2.1-linux-x86_64"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/modules/Findre2.cmake:40 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/ortoolsConfig.cmake:50 (find_dependency)"
+      - "CMakeLists.txt:69 (find_package)"
+    name: "re2"
+    configs:
+      -
+        filename: "re2Config.cmake"
+        kind: "cmake"
+      -
+        filename: "re2-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "re2"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/re2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/re2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/re2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/re2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/re2/re2Config.cmake"
+      mode: "config"
+      version: "11.0.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/cmake-4.2.1-linux-x86_64"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/Clp/ClpConfig.cmake:40 (find_dependency)"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/modules/FindClp.cmake:42 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/ortoolsConfig.cmake:57 (find_dependency)"
+      - "CMakeLists.txt:69 (find_package)"
+    name: "CoinUtils"
+    configs:
+      -
+        filename: "CoinUtilsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "coinutils-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "CoinUtils"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/CoinUtilsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/coinutils-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/CoinUtilsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/coinutils-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/CoinUtils/CoinUtilsConfig.cmake"
+      mode: "config"
+      version: "2.11.12"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/cmake-4.2.1-linux-x86_64"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/Clp/ClpConfig.cmake:46 (find_dependency)"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/modules/FindClp.cmake:42 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/ortoolsConfig.cmake:57 (find_dependency)"
+      - "CMakeLists.txt:69 (find_package)"
+    name: "Osi"
+    configs:
+      -
+        filename: "OsiConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "osi-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Osi"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/OsiConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/osi-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/OsiConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/osi-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/Osi/OsiConfig.cmake"
+      mode: "config"
+      version: "0.108.11"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/cmake-4.2.1-linux-x86_64"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/modules/FindClp.cmake:42 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/ortoolsConfig.cmake:57 (find_dependency)"
+      - "CMakeLists.txt:69 (find_package)"
+    name: "Clp"
+    configs:
+      -
+        filename: "ClpConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "clp-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Clp"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/ClpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/clp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/ClpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/clp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/Clp/ClpConfig.cmake"
+      mode: "config"
+      version: "1.17.10"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/cmake-4.2.1-linux-x86_64"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/Cbc/CbcConfig.cmake:41 (find_dependency)"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/modules/FindCbc.cmake:42 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/ortoolsConfig.cmake:60 (find_dependency)"
+      - "CMakeLists.txt:69 (find_package)"
+    name: "Cgl"
+    configs:
+      -
+        filename: "CglConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "cgl-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Cgl"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/CglConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/cgl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/CglConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/cgl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/Cgl/CglConfig.cmake"
+      mode: "config"
+      version: "0.60.9"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/cmake-4.2.1-linux-x86_64"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/modules/FindCbc.cmake:42 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/ortoolsConfig.cmake:60 (find_dependency)"
+      - "CMakeLists.txt:69 (find_package)"
+    name: "Cbc"
+    configs:
+      -
+        filename: "CbcConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "cbc-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Cbc"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/CbcConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/cbc-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/CbcConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/cbc-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/Cbc/CbcConfig.cmake"
+      mode: "config"
+      version: "2.10.12"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/cmake-4.2.1-linux-x86_64"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/modules/FindEigen3.cmake:38 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/ortoolsConfig.cmake:78 (find_dependency)"
+      - "CMakeLists.txt:69 (find_package)"
+    name: "Eigen3"
+    configs:
+      -
+        filename: "Eigen3Config.cmake"
+        kind: "cmake"
+      -
+        filename: "eigen3-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Eigen3"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/share/eigen3/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/share/eigen3/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/share/eigen3/cmake/Eigen3Config.cmake"
+      mode: "config"
+      version: "3.4.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/cmake-4.2.1-linux-x86_64"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/modules/FindSCIP.cmake:44 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/ortoolsConfig.cmake:84 (find_dependency)"
+      - "CMakeLists.txt:69 (find_package)"
+    name: "SCIP"
+    configs:
+      -
+        filename: "SCIPConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "scip-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "SCIP"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/SCIPConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/scip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/SCIPConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/scip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/scip/SCIPConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/scip/scip-config.cmake"
+      mode: "config"
+      version: "9.2.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/cmake-4.2.1-linux-x86_64"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:69 (find_package)"
+    name: "ortools"
+    configs:
+      -
+        filename: "ortoolsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "ortools-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "ortools"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/ortoolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/pkgRedirects/ortools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/ortoolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/ortools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/lib/cmake/ortools/ortoolsConfig.cmake"
+      mode: "config"
+      version: "9.12.4544"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/cmake-4.2.1-linux-x86_64"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CTest.cmake:188 (find_program)"
+      - "CMakeLists.txt:79 (include)"
+    mode: "program"
+    variable: "MEMORYCHECK_COMMAND"
+    description: "Path to the memory checking command, used for memory error detection."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "purify"
+      - "valgrind"
+      - "boundscheck"
+      - "drmemory"
+      - "cuda-memcheck"
+      - "compute-sanitizer"
+    candidate_directories:
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/bin/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/sbin/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/opt/cmake-4.2.1-linux-x86_64/bin/"
+      - "/opt/cmake-4.2.1-linux-x86_64/sbin/"
+      - "/opt/cmake-4.2.1-linux-x86_64/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/bin/purify"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/sbin/purify"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/purify"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/purify"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/purify"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/purify"
+      - "/home/mrfinch/.local/bin/purify"
+      - "/usr/local/sbin/purify"
+      - "/usr/local/bin/purify"
+      - "/usr/sbin/purify"
+      - "/usr/bin/purify"
+      - "/sbin/purify"
+      - "/bin/purify"
+      - "/usr/games/purify"
+      - "/usr/local/games/purify"
+      - "/snap/bin/purify"
+      - "/usr/local/bin/purify"
+      - "/usr/local/sbin/purify"
+      - "/usr/local/purify"
+      - "/usr/bin/purify"
+      - "/usr/sbin/purify"
+      - "/usr/purify"
+      - "/bin/purify"
+      - "/sbin/purify"
+      - "/opt/cmake-4.2.1-linux-x86_64/bin/purify"
+      - "/opt/cmake-4.2.1-linux-x86_64/sbin/purify"
+      - "/opt/cmake-4.2.1-linux-x86_64/purify"
+      - "/usr/X11R6/bin/purify"
+      - "/usr/X11R6/sbin/purify"
+      - "/usr/X11R6/purify"
+      - "/usr/pkg/bin/purify"
+      - "/usr/pkg/sbin/purify"
+      - "/usr/pkg/purify"
+      - "/opt/bin/purify"
+      - "/opt/sbin/purify"
+      - "/opt/purify"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/bin/valgrind"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/sbin/valgrind"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/valgrind"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/valgrind"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/valgrind"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/valgrind"
+      - "/home/mrfinch/.local/bin/valgrind"
+      - "/usr/local/sbin/valgrind"
+      - "/usr/local/bin/valgrind"
+      - "/usr/sbin/valgrind"
+      - "/usr/bin/valgrind"
+      - "/sbin/valgrind"
+      - "/bin/valgrind"
+      - "/usr/games/valgrind"
+      - "/usr/local/games/valgrind"
+      - "/snap/bin/valgrind"
+      - "/usr/local/bin/valgrind"
+      - "/usr/local/sbin/valgrind"
+      - "/usr/local/valgrind"
+      - "/usr/bin/valgrind"
+      - "/usr/sbin/valgrind"
+      - "/usr/valgrind"
+      - "/bin/valgrind"
+      - "/sbin/valgrind"
+      - "/opt/cmake-4.2.1-linux-x86_64/bin/valgrind"
+      - "/opt/cmake-4.2.1-linux-x86_64/sbin/valgrind"
+      - "/opt/cmake-4.2.1-linux-x86_64/valgrind"
+      - "/usr/X11R6/bin/valgrind"
+      - "/usr/X11R6/sbin/valgrind"
+      - "/usr/X11R6/valgrind"
+      - "/usr/pkg/bin/valgrind"
+      - "/usr/pkg/sbin/valgrind"
+      - "/usr/pkg/valgrind"
+      - "/opt/bin/valgrind"
+      - "/opt/sbin/valgrind"
+      - "/opt/valgrind"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/bin/boundscheck"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/sbin/boundscheck"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/boundscheck"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/boundscheck"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/boundscheck"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/boundscheck"
+      - "/home/mrfinch/.local/bin/boundscheck"
+      - "/usr/local/sbin/boundscheck"
+      - "/usr/local/bin/boundscheck"
+      - "/usr/sbin/boundscheck"
+      - "/usr/bin/boundscheck"
+      - "/sbin/boundscheck"
+      - "/bin/boundscheck"
+      - "/usr/games/boundscheck"
+      - "/usr/local/games/boundscheck"
+      - "/snap/bin/boundscheck"
+      - "/usr/local/bin/boundscheck"
+      - "/usr/local/sbin/boundscheck"
+      - "/usr/local/boundscheck"
+      - "/usr/bin/boundscheck"
+      - "/usr/sbin/boundscheck"
+      - "/usr/boundscheck"
+      - "/bin/boundscheck"
+      - "/sbin/boundscheck"
+      - "/opt/cmake-4.2.1-linux-x86_64/bin/boundscheck"
+      - "/opt/cmake-4.2.1-linux-x86_64/sbin/boundscheck"
+      - "/opt/cmake-4.2.1-linux-x86_64/boundscheck"
+      - "/usr/X11R6/bin/boundscheck"
+      - "/usr/X11R6/sbin/boundscheck"
+      - "/usr/X11R6/boundscheck"
+      - "/usr/pkg/bin/boundscheck"
+      - "/usr/pkg/sbin/boundscheck"
+      - "/usr/pkg/boundscheck"
+      - "/opt/bin/boundscheck"
+      - "/opt/sbin/boundscheck"
+      - "/opt/boundscheck"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/bin/drmemory"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/sbin/drmemory"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/drmemory"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/drmemory"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/drmemory"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/drmemory"
+      - "/home/mrfinch/.local/bin/drmemory"
+      - "/usr/local/sbin/drmemory"
+      - "/usr/local/bin/drmemory"
+      - "/usr/sbin/drmemory"
+      - "/usr/bin/drmemory"
+      - "/sbin/drmemory"
+      - "/bin/drmemory"
+      - "/usr/games/drmemory"
+      - "/usr/local/games/drmemory"
+      - "/snap/bin/drmemory"
+      - "/usr/local/bin/drmemory"
+      - "/usr/local/sbin/drmemory"
+      - "/usr/local/drmemory"
+      - "/usr/bin/drmemory"
+      - "/usr/sbin/drmemory"
+      - "/usr/drmemory"
+      - "/bin/drmemory"
+      - "/sbin/drmemory"
+      - "/opt/cmake-4.2.1-linux-x86_64/bin/drmemory"
+      - "/opt/cmake-4.2.1-linux-x86_64/sbin/drmemory"
+      - "/opt/cmake-4.2.1-linux-x86_64/drmemory"
+      - "/usr/X11R6/bin/drmemory"
+      - "/usr/X11R6/sbin/drmemory"
+      - "/usr/X11R6/drmemory"
+      - "/usr/pkg/bin/drmemory"
+      - "/usr/pkg/sbin/drmemory"
+      - "/usr/pkg/drmemory"
+      - "/opt/bin/drmemory"
+      - "/opt/sbin/drmemory"
+      - "/opt/drmemory"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/bin/cuda-memcheck"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/sbin/cuda-memcheck"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/cuda-memcheck"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/cuda-memcheck"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/cuda-memcheck"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/cuda-memcheck"
+      - "/home/mrfinch/.local/bin/cuda-memcheck"
+      - "/usr/local/sbin/cuda-memcheck"
+      - "/usr/local/bin/cuda-memcheck"
+      - "/usr/sbin/cuda-memcheck"
+      - "/usr/bin/cuda-memcheck"
+      - "/sbin/cuda-memcheck"
+      - "/bin/cuda-memcheck"
+      - "/usr/games/cuda-memcheck"
+      - "/usr/local/games/cuda-memcheck"
+      - "/snap/bin/cuda-memcheck"
+      - "/usr/local/bin/cuda-memcheck"
+      - "/usr/local/sbin/cuda-memcheck"
+      - "/usr/local/cuda-memcheck"
+      - "/usr/bin/cuda-memcheck"
+      - "/usr/sbin/cuda-memcheck"
+      - "/usr/cuda-memcheck"
+      - "/bin/cuda-memcheck"
+      - "/sbin/cuda-memcheck"
+      - "/opt/cmake-4.2.1-linux-x86_64/bin/cuda-memcheck"
+      - "/opt/cmake-4.2.1-linux-x86_64/sbin/cuda-memcheck"
+      - "/opt/cmake-4.2.1-linux-x86_64/cuda-memcheck"
+      - "/usr/X11R6/bin/cuda-memcheck"
+      - "/usr/X11R6/sbin/cuda-memcheck"
+      - "/usr/X11R6/cuda-memcheck"
+      - "/usr/pkg/bin/cuda-memcheck"
+      - "/usr/pkg/sbin/cuda-memcheck"
+      - "/usr/pkg/cuda-memcheck"
+      - "/opt/bin/cuda-memcheck"
+      - "/opt/sbin/cuda-memcheck"
+      - "/opt/cuda-memcheck"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/bin/compute-sanitizer"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/sbin/compute-sanitizer"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/compute-sanitizer"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/compute-sanitizer"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/compute-sanitizer"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/compute-sanitizer"
+      - "/home/mrfinch/.local/bin/compute-sanitizer"
+      - "/usr/local/sbin/compute-sanitizer"
+      - "/usr/local/bin/compute-sanitizer"
+      - "/usr/sbin/compute-sanitizer"
+      - "/usr/bin/compute-sanitizer"
+      - "/sbin/compute-sanitizer"
+      - "/bin/compute-sanitizer"
+      - "/usr/games/compute-sanitizer"
+      - "/usr/local/games/compute-sanitizer"
+      - "/snap/bin/compute-sanitizer"
+      - "/usr/local/bin/compute-sanitizer"
+      - "/usr/local/sbin/compute-sanitizer"
+      - "/usr/local/compute-sanitizer"
+      - "/usr/bin/compute-sanitizer"
+      - "/usr/sbin/compute-sanitizer"
+      - "/usr/compute-sanitizer"
+      - "/bin/compute-sanitizer"
+      - "/sbin/compute-sanitizer"
+      - "/opt/cmake-4.2.1-linux-x86_64/bin/compute-sanitizer"
+      - "/opt/cmake-4.2.1-linux-x86_64/sbin/compute-sanitizer"
+      - "/opt/cmake-4.2.1-linux-x86_64/compute-sanitizer"
+      - "/usr/X11R6/bin/compute-sanitizer"
+      - "/usr/X11R6/sbin/compute-sanitizer"
+      - "/usr/X11R6/compute-sanitizer"
+      - "/usr/pkg/bin/compute-sanitizer"
+      - "/usr/pkg/sbin/compute-sanitizer"
+      - "/usr/pkg/compute-sanitizer"
+      - "/opt/bin/compute-sanitizer"
+      - "/opt/sbin/compute-sanitizer"
+      - "/opt/compute-sanitizer"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/cmake-4.2.1-linux-x86_64"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/cmake-4.2.1-linux-x86_64/share/cmake-4.2/Modules/CTest.cmake:196 (find_program)"
+      - "CMakeLists.txt:79 (include)"
+    mode: "program"
+    variable: "COVERAGE_COMMAND"
+    description: "Path to the coverage program that CTest uses for performing coverage inspection"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcov"
+    candidate_directories:
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/bin/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/sbin/"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/"
+      - "/home/mrfinch/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/opt/cmake-4.2.1-linux-x86_64/bin/"
+      - "/opt/cmake-4.2.1-linux-x86_64/sbin/"
+      - "/opt/cmake-4.2.1-linux-x86_64/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/bin/gcov"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/sbin/gcov"
+      - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/gcov"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcov"
+      - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcov"
+      - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin/gcov"
+      - "/home/mrfinch/.local/bin/gcov"
+      - "/usr/local/sbin/gcov"
+      - "/usr/local/bin/gcov"
+      - "/usr/sbin/gcov"
+    found: "/usr/bin/gcov"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools"
+      ENV{PATH}:
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mrfinch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mrfinch/.nvm/versions/node/v22.20.0/bin"
+        - "/home/mrfinch/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/cmake-4.2.1-linux-x86_64"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+...

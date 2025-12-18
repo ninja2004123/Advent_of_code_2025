@@ -1,0 +1,19 @@
+Start testing: Dec 18 23:40 CET
+----------------------------------------------------------
+1/1 Testing: test_main_2
+1/1 Test: test_main_2
+Command: "/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/bin/main_2"
+Directory: /home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build
+"test_main_2" start time: Dec 18 23:40 CET
+Output:
+----------------------------------------------------------
+0
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"test_main_2" end time: Dec 18 23:40 CET
+"test_main_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 18 23:40 CET

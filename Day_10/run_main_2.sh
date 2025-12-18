@@ -1,0 +1,1 @@
+cd ./or-tools/examples/main_2/build/ && make && cd ./bin && ./main_2 && cd ../../../../../

@@ -1,0 +1,8 @@
+/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/main_2.dir
+/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/test.dir
+/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/edit_cache.dir
+/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/rebuild_cache.dir
+/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/list_install_components.dir
+/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/install.dir
+/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/install/local.dir
+/home/mrfinch/Documents/Advent_of_code_2025/Day_10/or-tools/examples/main_2/build/CMakeFiles/install/strip.dir
